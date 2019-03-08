@@ -1,0 +1,40 @@
+.bell-counter {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 15px;
+  &.ui.statistic>.value {
+    font-size: 1rem;
+  }
+}
+
+.input-container {
+  margin: 5px;
+  display: flex;
+}
+
+.screen-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+label {
+  font-weight: 700;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.input-container input {
+  width: 75px;
+}
+
+.tower {
+  height: 150px;
+  margin-top: -15px;
+  margin-bottom: 15px;
+}
+
+.logo {
+  margin-bottom: -15px;
+}
