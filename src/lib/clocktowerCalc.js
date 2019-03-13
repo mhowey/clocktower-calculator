@@ -35,7 +35,7 @@ function countBellRings(startIn, endIn) {
     // the start IS bigger than the end push the start to the array
     var n;
     // iterate through the hours from start value to 24
-    for (var i = startHr; i <= 24; i++) {
+    for (let i = startHr; i <= 24; i++) {
       // convert 24 hour to 12 hour...
       i > 12 ? (n = i - 12) : (n = i);
 
@@ -43,16 +43,16 @@ function countBellRings(startIn, endIn) {
     }
 
     // iterate through the hours from 1 to the end value
-    for (var ii = 1; ii <= endHr; ii++) {
+    for (let i = 1; i <= endHr; i++) {
       // convert 24 hour to 12 hour...
-      ii > 12 ? (n = ii - 12) : (n = ii);
+      i > 12 ? (n = i - 12) : (n = i);
       hrsArr.push(n);
     }
   } else {
     // the start isn't bigger than the end
 
     // iterate through the hours and push to our array...
-    for (var hr = startHr; hr <= endHr; hr++) {
+    for (let hr = startHr; hr <= endHr; hr++) {
       // convert 24 hour to 12 hour...
       hr > 12 ? (n = hr - 12) : (n = hr);
 
