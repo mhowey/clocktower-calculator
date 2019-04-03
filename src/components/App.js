@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import countBellRings from '../lib/clocktowerCalc';
 
-import kbraLogo from '../assets/kbraLogo.jpeg';
 import tower from '../assets/clocktower-icon.png';
 import '../styles/app.scss';
 
@@ -32,7 +31,6 @@ class App extends Component {
       <div className="screen-center">
         <div className="ui card">
           <div className="ui content center aligned">
-            <img className="logo" src={kbraLogo} alt="kbra logo" />
             <h3 className="ui content center aligned">Clocktower Calculator</h3>
 
             <img className="tower" src={tower} alt="clocktower" />
